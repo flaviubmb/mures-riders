@@ -1,0 +1,59 @@
+nav {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.login {
+  display: flex;
+  gap: 10px;
+}
+
+.login li {
+  list-style: none;
+}
+
+.login li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+
+.login-btn {
+  color: #4c6044;
+  cursor: pointer;
+  border: 2px solid #4c6044;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  gap: 2px;
+  background-color: transparent;
+}
+
+.signup-btn {
+  background-color: #4c6044;
+  border: 2px solid #4c6044;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  gap: 4px;
+}

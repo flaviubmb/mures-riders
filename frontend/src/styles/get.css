@@ -1,0 +1,151 @@
+.bikes,
+.rides,
+.components {
+  background-color: #f4f5ed;
+  margin: 20px 0 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #b3caab;
+}
+
+.page-title {
+  margin-bottom: 10px;
+  color: #3e4f37;
+}
+
+.page-description {
+  margin-bottom: 25px;
+  color: #4c6044;
+}
+
+.bike-info {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+img.bike-img {
+  width: 150px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.bike-brand {
+  margin-bottom: 16px;
+  color: #3e4f37;
+}
+
+.bike-type {
+  background-color: #a1bc98;
+  color: #374431;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.bike-km {
+  color: #4c6044;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #f4f5ed;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-title {
+  margin-bottom: 6px;
+  color: #3e4f37;
+  font-size: 18px;
+}
+
+.card-description {
+  font-weight: 800;
+  font-size: 26px;
+  color: #3e4f37;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.add-btn {
+  background-color: #4c6044;
+  padding: 12px 24px;
+  color: #fff;
+}
+
+.view-btn {
+  background-color: #a1bc98;
+  color: #3e4f37;
+}
+
+.edit-btn {
+  background-color: #a1bc98;
+  color: #3e4f37;
+}
+
+.delete-btn {
+  background-color: #ce0000;
+  color: #fff;
+}
+
+.ride-distance {
+  margin-bottom: 8px;
+  color: #3e4f37;
+}
+
+.ride-duration {
+  margin-bottom: 8px;
+  color: #3e4f37;
+}
+
+.ride-date {
+  margin-bottom: 8px;
+  color: #3e4f37;
+}
+
+.ride-avgSpeed {
+  margin-bottom: 8px;
+  color: #3e4f37;
+}
+
+.component-name,
+.component-lifespan,
+.component-used-km,
+.component-installed-km,
+.component-installed-date {
+  margin-bottom: 8px;
+  color: #3e4f37;
+}
